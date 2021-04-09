@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { StackItem, Stack, Section } from "@quarkly/components";
+import { MdHelp } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -62,10 +63,86 @@ export default (() => {
 				</StackItem>
 				<StackItem width="25%" lg-width="50%" sm-width="100%">
 					<Text margin="0px">
-						CDS Documentary Essay Prize and Best Photographer of The Year 2019 by Sony World Photography Awards.
+						Here is the source of information on the nexus of the Metaverse and Crypto.
+						<br />
+						We will provide analytics and statistics on metaverse worlds such as Decentraland, The Sandbox.
 					</Text>
 				</StackItem>
 			</Stack>
+		</Section>
+		<Section color="--dark">
+			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
+				What is...?
+			</Text>
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="--primary"
+					category="md"
+					icon={MdHelp}
+				/>
+				<Text as="h3" font="--headline3" margin="10px 0">
+					What is The Metaverse?
+				</Text>
+				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
+					The Metaverse is a collective virtual shared space, including the sum of all virtual worlds, augmented reality, and the Internet. It is the concept of a future iteration of the internet, made up of persistent, shared, 3D virtual spaces linked into a perceived virtual universe.
+				</Text>
+			</Box>
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="--primary"
+					category="md"
+					icon={MdHelp}
+				/>
+				<Text as="h3" font="--headline3" margin="10px 0">
+					What is the Cryptoverse?
+				</Text>
+				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
+					Blockchain technology enables an ecosystem of digital objects that can be verified as unique. This whole ecosystem can be considered as the cryptoverse.{" "}
+				</Text>
+			</Box>
+			<Box
+				margin="36px 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="--primary"
+					category="md"
+					icon={MdHelp}
+				/>
+				<Text as="h3" font="--headline3" margin="10px 0">
+					What is the Meta/Crypto-verse?
+				</Text>
+				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
+					The arrival of NFTs has given a breath of new life to the true potential of the Metaverse. The proof of ownership of digital items is ground-breaking in rekindling the foundation of a decentralized Metaverse imbued with the essence of unique digital objects. The MetaCryptoverse is the nexus of the Metaverse and Crypto, both riding on the substrate of blockchain  technology.{"  "}
+				</Text>
+			</Box>
 		</Section>
 		<Link
 			font={"--capture"}
