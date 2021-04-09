@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { StackItem, Stack, Section } from "@quarkly/components";
@@ -67,97 +67,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section
-			padding="60px 0"
-			sm-padding="40px 0"
-			min-height="600px"
-			sm-min-height="auto"
-			background="--color-light"
-			display="flex"
-			flex-direction="column"
-		>
-			<Text
-				font="--base"
-				text-transform="uppercase"
-				letter-spacing="1px"
-				max-width="850px"
-				color="--grey"
-				margin="0px"
-			>
-				Eyebrow
-			</Text>
-			<Text
-				as="h1"
-				margin="8px 0px 32px"
-				font="--headline1"
-				md-font="--headline2"
-				color="--dark"
-				max-width="850px"
-			>
-				Heading
-			</Text>
-			<Stack margin-top="auto" color="--grey" font="--base">
-				<StackItem width="75%" md-width="100%">
-					<Text margin="0px" max-width="600px">
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
-					</Text>
-				</StackItem>
-				<StackItem width="25%" md-width="100%">
-					<Text margin="0px">
-						Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
-					</Text>
-				</StackItem>
-			</Stack>
-		</Section>
-		<Section text-align="center" padding="100px 0" sm-padding="40px 0">
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
-				About Us
-			</Text>
-			<Text as="p" font="--lead" margin="20px 0 0 0">
-				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake. I’m a great space for you to tell a story and let your site visitors know more about you. Talk about your business and what products and services you offer. Share how you came up with the idea for your company and what makes you different from your competitors. Make your business stand out and show your visitors who you are.{" "}
-			</Text>
-			<Box display="flex" margin="40px 0 20px 0" justify-content="space-around" sm-flex-direction="column">
-				<Box padding="10px">
-					<Image src="https://images.unsplash.com/photo-1501870190084-cdf29f15ef87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80" width="320px" max-width="100%" />
-				</Box>
-				<Box padding="10px">
-					<Image src="https://images.unsplash.com/photo-1503341960582-b45751874cf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" width="320px" max-width="100%" />
-				</Box>
-				<Box padding="10px">
-					<Image src="https://images.unsplash.com/photo-1503342394128-c104d54dba01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80" width="320px" max-width="100%" />
-				</Box>
-			</Box>
-		</Section>
-		<Text>
-			Some text
-		</Text>
-		<Text>
-			Some text
-		</Text>
-		<Text>
-			Some text
-		</Text>
-		<Text>
-			Some text
-		</Text>
-		<Text>
-			Some text
-		</Text>
-		<Text>
-			Some text
-		</Text>
-		<Text>
-			Some text
-		</Text>
-		<Text>
-			Some text
-		</Text>
-		<Text font="1em --fontFamily-sansHeavy">
-			Some text
-		</Text>
-		<Text>
-			Some text
-		</Text>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
