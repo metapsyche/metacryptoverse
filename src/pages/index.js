@@ -35,9 +35,17 @@ export default (() => {
 				.
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				When Non-Fungible Tokens (NFTs) spawned from the Cryptoverse, new kinds of Metaverses were created—and enabled—by Blockchain technology. This fusion of Crypto and Virtual Worlds has given birth to the MetaCryptoverse.
+				When Non-Fungible Tokens (NFTs) spawned from the Cryptoverse, new kinds of Metaverses were created.{" "}
 				<br />
-				Metaverse Worlds (such as Decentraland, CryptoVoxels, Webaverse, The Sandbox,etc) that run on NFTs (avatars, land, wearables, entities, etc)—are pioneers of the emerging Metacryptoverse.
+				These new breed of Virtual Worlds are enabled by Blockchain technology.{" "}
+				<br />
+				This fusion of Crypto and the Metaverse has given birth to the MetaCryptoverse.
+				<br />
+				Metaverse Worlds (such as Decentraland, CryptoVoxels, Webaverse, The Sandbox,etc){" "}
+				<br />
+				that run on NFTs--avatars, land parcels, wearables, and so on,{" "}
+				<br />
+				these are the pioneers of the emerging Metacryptoverse.
 			</Text>
 		</Section>
 		<Section color="--dark">
@@ -114,6 +122,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Box />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
