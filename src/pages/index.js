@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { StackItem, Stack, Section } from "@quarkly/components";
+import { Section } from "@quarkly/components";
 import { MdHelp } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
@@ -16,59 +16,27 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
-			padding="140px 0"
-			sm-padding="40px 0"
-			background="linear-gradient(0deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,.2) 100%),--color-dark url(https://images.unsplash.com/photo-1486074051793-e41332bf18fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80) 50% 15%/cover"
+			text-align="center"
+			background-color="--primary"
 			color="--light"
-			font="--base"
+			padding="100px 0"
+			sm-padding="40px 0"
 		>
-			<Box>
-				<Text
-					as="h1"
-					margin="0 0 96px 0"
-					text-align="center"
-					letter-spacing="50px"
-					text-transform="uppercase"
-					font="100 132px/1.2 --fontFamily-sans"
-					lg-font="200 42px/1.2 --fontFamily-sans"
-					lg-letter-spacing="20px"
-				>
-					Meta/Crypto
-					<br />
-					V e r s E
-				</Text>
-			</Box>
-			<Stack>
-				<StackItem
-					width="25%"
-					lg-width="50%"
-					sm-width="100%"
-					font="--lead"
-					text-transform="uppercase"
-					letter-spacing="1px"
-				>
-					<Text margin="0px">
-						WELCOME
-					</Text>
-				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
-					<Text margin="0px">
-						The intersection between the Metaverse and Crypto.{" "}
-					</Text>
-				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
-					<Text margin="0px">
-						Blockchain and NFT has given the metaverse a breath of new life.
-					</Text>
-				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
-					<Text margin="0px">
-						Here is the source of information on the nexus of the Metaverse and Crypto.
-						<br />
-						We will provide analytics and statistics on metaverse worlds such as Decentraland, The Sandbox.
-					</Text>
-				</StackItem>
-			</Stack>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				MΞτ∆(¢r¥₱τø)&#123;v≡r$≡&#125;
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				.
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake. I’m a great space for you to tell a story and let your site visitors know more about you. Talk about your business and what products and services you offer. Share how you came up with the idea for your company and what makes you different from your competitors. Make your business stand out and show your visitors who you are.
+			</Text>
 		</Section>
 		<Section color="--dark">
 			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
